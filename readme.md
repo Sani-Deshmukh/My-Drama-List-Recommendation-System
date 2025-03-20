@@ -57,3 +57,27 @@ class FactorizationMachineMultiTask(nn.Module):
             torch.pow(torch.matmul(x, self.V), 2) - torch.matmul(torch.pow(x, 2), torch.pow(self.V, 2)), dim=1
         )
         return 1 + 9 * self.sigmoid(output)  # Scale to [1,10]
+```
+
+## Preliminary Results and Analysis
+PCA Projection of User Embeddings 
+![image](https://github.com/user-attachments/assets/67fc63ce-07ba-46f0-876a-0f54fa2f8f9e)
+
+### Example Results 
+```
+Predicting ratings for Tianqin...
+Total dramas to predict: 2055
+Top 10 recommended dramas for Tianqin:
+1. Mysterious Lotus Casebook - Predicted Rating: 9.37
+2. Joy of Life - Predicted Rating: 9.32
+3. You Are My Glory - Predicted Rating: 9.30
+4. Mr. Queen - Predicted Rating: 9.28
+5. Reset - Predicted Rating: 9.27
+6. One and Only - Predicted Rating: 9.27
+7. Twinkling Watermelon - Predicted Rating: 9.26
+8. Eternal Love - Predicted Rating: 9.25
+9. Love and Redemption - Predicted Rating: 9.24
+10. Reply 1988 - Predicted Rating: 9.24
+```
+
+
