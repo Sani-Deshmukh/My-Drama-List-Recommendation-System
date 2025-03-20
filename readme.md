@@ -2,8 +2,7 @@
 > **Leveraging Factorization Machines & Embeddings to Enhance Drama Discovery**  
 > *A Data-Driven Approach to Personalized Recommendations on MyDramaList (MDL)*  
 
-![PCA Projection](path_to_pca_image.png)  
-> *Visualization of user embeddings reduced via PCA, revealing structured user preference clusters.*
+CREDITS: MDL DATABASE: ```https://mydramalist.com/```
 
 ## 💭 Motivation (I love dramas!!)
 The quality of recommendations in streaming platforms and media discovery systems **solely depends on the richness of user interaction data**. Traditional collaborative filtering approaches **fail in cold-start scenarios** and often **struggle with sparse user-item interactions**.  
