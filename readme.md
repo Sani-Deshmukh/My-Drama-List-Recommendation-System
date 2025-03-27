@@ -1,3 +1,8 @@
+# https://kimchitianqin-mdl-recommender.hf.space/?logs=build&__theme=system&deep_link=hjUJpeluazc #
+Try it now with the link above! 
+💕 Try wiht my username: "Tianqin" to sxee example recommendations!
+
+
 # ⭐️ Personalized Drama Recommendation System
 > **Leveraging Factorization Machines & Embeddings to Enhance Drama Discovery**  
 > *A Data-Driven Approach to Personalized Recommendations on MyDramaList (MDL)*  
